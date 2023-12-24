@@ -1,6 +1,6 @@
 import pandas as pd
 import statsmodels.api as sm
-import patsy
+# import patsy
 import matplotlib.pyplot as plt
 
 # Load data from Excel files
