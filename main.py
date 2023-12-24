@@ -1,7 +1,7 @@
 import pandas as pd
 import statsmodels.api as sm
 import patsy
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 # Load data from Excel files
 df_y = pd.read_csv('./sect3_health.csv',low_memory=False)
