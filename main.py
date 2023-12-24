@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Load data from Excel files
 df_y = pd.read_csv('./sect3_health.csv',low_memory=False)
-# df_X = pd.read_csv('./sect13_income.csv')
+df_X = pd.read_csv('./sect13_income.csv')
 
 
 combined_data = pd.concat([df_y,df_X], ignore_index=True )
